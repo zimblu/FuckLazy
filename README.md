@@ -1,0 +1,2 @@
+# FuckLazy
+NVim config
