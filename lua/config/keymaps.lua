@@ -29,3 +29,6 @@ vim.keymap.set({ "n" }, "<leader>tn", function()
   betterTerm.open(current)
   current = current + 1
 end, { desc = "New terminal" })
+
+-- oil.nvim
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
